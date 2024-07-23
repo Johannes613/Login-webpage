@@ -1,0 +1,198 @@
+body{
+    margin: 0; 
+    background: url(images/asus-rog-republic-of-gamers-1920x1080-technology-asus-hd-art-wallpaper-preview.jpg);
+    background-size: cover;    
+}
+
+.nav-bar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 25px;
+}
+
+.icon {
+   margin-left: 40px;
+   width: 250px; 
+   display: flex;  
+   align-items: center;
+
+}
+.btn-logo{
+    padding:8px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    font-size: 18px;
+    transition: background-color 0.75s;
+
+}
+.btn-logo:hover{
+    background-color: rgb(220, 47, 47);
+    cursor: pointer;
+}
+
+ul{
+    display: flex;        
+    justify-content: space-between;
+    flex: 4;
+    max-width: 700px;
+       
+}
+ul li{
+    list-style: none;    
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.70s;
+   
+}
+ul li a:hover{
+    background-color: red;
+    padding:7px;
+    border-radius: 5px;
+    border-right: 2px solid white;
+}
+
+.search{
+    display: flex;
+    flex: 2;
+    margin-left: 110px;
+   
+   
+}
+.search-bar{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    height:35px;
+    min-width: 200px;
+    border: 1px;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+   
+}
+.btn-search{
+    width: 65px;
+    background-color: rgb(220, 47, 47);
+    color: rgb(47, 47, 47);
+    border:none;
+    border-bottom-right-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+   
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-us{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 600px;
+    margin-top: 105px;
+    margin-left: 70px;
+   
+}
+
+.course-title{
+    font-size: 45px;
+    line-height: 65px;
+    letter-spacing: 2px;
+   
+}
+.dev{
+    color:  rgb(234, 5, 5);
+    font-size: 52px;
+}
+.course-description{
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.join-btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(212, 7, 7);
+    border: solid;
+    font-size: 16px;
+}
+.join-btn:hover{
+    background-color: white;
+    transition: background-color 0.75s;
+    cursor: pointer;
+}
+.login-div{
+    color: white;
+    background-color: rgb(35, 35, 35);
+    margin-right: 80px;
+    border-radius: 10px;
+    margin-top: 125px;
+    
+}
+.login-btn{
+    background-color: white;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 30px;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 19px;
+  
+}
+.login-input{
+   background: transparent; 
+   margin-left: 30px;
+   width:260px ;
+   height: 35px;
+   border-left: none;
+   border-right: none;
+   border-top: none;
+   border-bottom: 1px solid rgb(182, 46, 46);
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   margin-top: 20px;
+   letter-spacing: 1.2px;
+}
+
+.login-input:focus{
+    outline: none;
+}
+.para{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+   
+}
+.sign-up{
+    color:  rgb(182, 46, 46);
+}
+.alternatives{
+    text-align: center;
+}
+#second{
+    background-color: rgb(230, 40, 40);
+    transition: background-color 0.75s;
+    cursor: pointer;
+    font-size: 18px;
+}
+#second:hover{
+    background-color: white;
+}
