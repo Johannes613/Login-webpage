@@ -17,4 +17,4 @@ This project is a login page for Info-Codivers, featuring a navigation bar, a co
 ## Usage
 1. Clone the repository:
    ```sh
-   git clone
+   git clone https://github.com/Johannes613/Login-webpage.git
